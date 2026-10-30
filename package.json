@@ -1,0 +1,11 @@
+{
+  "name": "videoeditor",
+  "private": true,
+  "description": "Puente Node hacia HyperFrames (paquete npm, versión exacta).",
+  "scripts": {
+    "hf": "hyperframes"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.221"
+  }
+}

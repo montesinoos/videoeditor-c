@@ -1,0 +1,16 @@
+# Media: nunca al repo
+projects/*/
+!projects/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.mp4
+*.mov
+*.wav
+# Motor vendored: se fija por commit en skills-lock.json
+vendor/hyperframes/
+# Entorno
+.venv/
+__pycache__/
+*.egg-info/
+node_modules/
+.env

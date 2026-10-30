@@ -1,0 +1,20 @@
+[project]
+name = "vedit"
+version = "0.1.0"
+description = "Pipeline de edición: 7 pasos, de raw a final"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+asr = ["whisperx"]
+dev = ["pytest"]
+
+[project.scripts]
+vedit = "vedit.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["vedit"]

@@ -1,0 +1,12 @@
+{
+  "hyperframes": {
+    "npm": "hyperframes@0.8.221",
+    "source": "https://github.com/heygen-com/hyperframes.git",
+    "reference_clone": {
+      "path": "vendor/hyperframes",
+      "commit": "6f2b072275b6107c253fd61edebe107cbd3c8275",
+      "use": "solo consulta (skills, docs, registry); no se compila"
+    },
+    "note": "No editar a mano. Actualizar con: npm install -D -E hyperframes@<versión> y cambiar este archivo."
+  }
+}

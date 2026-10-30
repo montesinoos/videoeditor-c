@@ -1,0 +1,3 @@
+{ "name": "short-tiktok", "aspect": "9:16", "width": 1080, "height": 1920,
+  "graphics": "hook-card-then-raw", "captions": { "preset": "tiktok-raw-style", "position": "low-under-face", "locked": true },
+  "thumbnail": "skip" }
